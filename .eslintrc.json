@@ -9,7 +9,12 @@
     "jest"
   ],
   "rules": {
-    "prettier/prettier": "error",
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
     "jest/no-disabled-tests": "error",
     "jest/no-identical-title": "error",
     "jest/valid-expect": "error",
